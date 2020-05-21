@@ -38,3 +38,4 @@ chrome-user-data
 go/
 go1.13.3.linux-amd64.tar.gz
 pkg
+pkg/*
