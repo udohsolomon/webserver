@@ -35,3 +35,5 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+go/
+go1.13.3.linux-amd64.tar.gz

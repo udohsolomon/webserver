@@ -3,10 +3,11 @@ BINARY_NAME=server
 PACKAGE_NAME=deployment
 all:  clean build package
 clean:
+	
 	rm -rf $(PACKAGE_NAME)
 	rm -rf $(PACKAGE_NAME).zip
 build: 
-	cd server && GOOS=linux go build -o $(BINARY_NAME)
+	cd server && GOOS=linux GOARCH=amd64 go build -o $(BINARY_NAME)
 	cd client && npm run build
 package:
 	mkdir deployment

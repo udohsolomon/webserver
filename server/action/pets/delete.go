@@ -3,6 +3,7 @@ package pets
 import (
 	"github.com/jinzhu/gorm"
 	"github.com/udohsolomon/webserver/server/model/pet"
+)
 
 //DeletePetRequest request struct
 type DeletePetRequest struct {
